@@ -1,0 +1,12 @@
+package: youtube_channel_datter
+import:
+- package: golang.org/x/net
+  subpackages:
+  - context
+- package: golang.org/x/oauth2
+  subpackages:
+  - google
+- package: google.golang.org/api
+  subpackages:
+  - googleapi/transport
+  - youtube/v3
